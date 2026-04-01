@@ -4,7 +4,7 @@
 Projet web statique d'une agence de voyage realise en HTML5 et CSS3.
 
 ## Auteur
-Projet realise par moi - module Git et GitHub.
+Sayed Hussein — 1re Année Bachelor Dev. Web
 
 ## Structure
 - `index.html` : page d'accueil
@@ -15,5 +15,9 @@ Projet realise par moi - module Git et GitHub.
 - `README.md` : description du projet
 - `.gitignore` : fichiers a ignorer
 
+## Technologies 
+- HTML5 / CSS3
+
 ## Lien live
+https://hashidaru978.github.io/Sayed-agence-web/
 
