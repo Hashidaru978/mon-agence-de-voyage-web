@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Horizon Nomade</title>
+  <meta name="description" content="Contactez Horizon Nomade pour preparer votre prochain voyage." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Horizon Nomade</a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section-space">
+    <div class="container contact-grid">
+      <section class="contact-info fade-up">
+        <p class="eyebrow">Contact</p>
+        <h1>Parlons de votre prochain depart.</h1>
+        <ul class="info-list">
+          <li><strong>Adresse:</strong> 24 Avenue des Explorateurs, Casablanca</li>
+          <li><strong>Telephone:</strong> +225 05 22 00 11 22</li>
+          <li><strong>Horaires:</strong> Lun - Ven 09:00 a 18:30, Sam 10:00 a 14:00</li>
+        </ul>
+      </section>
+
+      <section class="contact-form-card fade-up-delay" aria-label="Formulaire de contact">
+        <h2>Envoyez-nous un message</h2>
+        <form action="#" method="post">
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" placeholder="Votre nom" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="votre@email.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Destination, budget, dates..." required></textarea>
+
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Horizon Nomade. Tous droits reserves.</p>
+      <p>Voyager beau, voyager juste.</p>
+    </div>
+  </footer>
+</body>
+</html>

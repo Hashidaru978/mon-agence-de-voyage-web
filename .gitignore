@@ -1,0 +1,10 @@
+﻿# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Fichiers logs
+*.log
+
+# Dossiers dependances/outils
+node_modules/
+.vscode/
