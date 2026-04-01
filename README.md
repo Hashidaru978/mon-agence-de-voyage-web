@@ -16,7 +16,7 @@ Sayed Hussein — 1re Année Bachelor Dev. Web
 - `.gitignore` : fichiers a ignorer
 
 ## Technologies 
-- HTML5 / CSS3
+- HTML5 /CSS3
 
 ## Lien live
 https://hashidaru978.github.io/Sayed-agence-web/
